@@ -52,38 +52,42 @@ The UI is fully responsive and adapts smoothly across devices.
 ---
 
 ## 📸 Screenshots
-*(Add your images to `/screenshots` and update the paths)*
 
 ### Home Page
-![Home](screenshots/homepage.png)
-![Home](screenshots/homepage2.png)
+<img width="764" height="763" alt="homepage2" src="https://github.com/user-attachments/assets/6bc3a6cd-9bf6-4bd3-b216-45b235bee51d" />
+
+<img width="764" height="763" alt="homepage2" src="https://github.com/user-attachments/assets/4a8ae51a-fae8-4e5d-afb7-5f63ad3c70d3" />
+
 
 ### Search
-![Search](screenshots/advanced_search.png)
-![Search](screenshots/advanced_search2.png)
-![Search](screenshots/advanced_search3.png)
+<img width="770" height="763" alt="advanced_search" src="https://github.com/user-attachments/assets/c3c068bf-2802-4451-afc6-b606dd602db0" />
+<img width="772" height="763" alt="advanced_search2" src="https://github.com/user-attachments/assets/a3e9bae2-450c-4e17-b28b-2af0a746f021" />
+<img width="770" height="761" alt="advanced_search3" src="https://github.com/user-attachments/assets/d906f1b0-39fc-4a00-98d8-76cea3c50be3" />
 
 ### Movie Details
-![Details](screenshots/details.png)
+<img width="939" height="334" alt="details" src="https://github.com/user-attachments/assets/454be5fd-9159-4bfc-8bbe-4668045a2376" />
 
 ### Movie Reviews
-![Reviews](screenshots/reviews.png)
+<img width="977" height="679" alt="reviews" src="https://github.com/user-attachments/assets/e07d0cb7-6379-4684-ad94-701930777837" />
 
 ### Groups
-![Groups](screenshots/groups.png)
+<img width="763" height="756" alt="groups" src="https://github.com/user-attachments/assets/caae99d3-be64-48dd-a71d-675534dac46b" />
 
 ### Profile
-![Profile](screenshots/profile.png)
+<img width="771" height="768" alt="profile" src="https://github.com/user-attachments/assets/9b85c50a-4c5f-45c5-96f5-4750d616fd3d" />
 
 ### In Cinemas
-![In Cinemas](screenshots/in_cinemas.png)
+<img width="766" height="747" alt="in_cinemas" src="https://github.com/user-attachments/assets/11117120-8330-48e8-b6ca-dfb82fa6d302" />
 
 ### Shop
-![Shop](screenshots/shop.png)
+<img width="767" height="763" alt="shop" src="https://github.com/user-attachments/assets/367ed157-2cce-4502-bc27-c45072c85a8e" />
 
 ---
 
 ## 🎞 Demo GIF
+
+https://github.com/user-attachments/assets/0af321c3-3f70-4c11-b658-fb10eeed9b1e
+
 ![Demo](screenshots/demo.gif)
 
 ---
