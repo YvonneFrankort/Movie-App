@@ -1,67 +1,173 @@
-Web-application project
+🎬 Movie Web App
 
-## Instructions for Swagger documentation:
-
-The documentation is created for each HTTP request made in the backend.
-The index.js file includes the initialization for the Swagger REST documentation.
-If a user creates a new .js file containing HTTP requests and wants to add REST documentation (required),
-the file must be referenced in index.js as shown below:
-
-import exampleRouter from './routes/example.js';
-app.use('/example', exampleRouter);
-
-Also, the user must ensure that index.js’s const swaggerOptions includes all route files. This is done by using * as a wildcard in the apis definition:
-
-apis: ['./index.js', './routes/*.js']
-
-The documentation follows this general structure (NOTE: The <- are just for description of each line and not needed in actual documentation!):
-
-```js
-/**
- * @openapi
- * /users:                                        <-- 1.  Endpoint path (URL)
- *   post:                                        <-- 2.  HTTP method
- *     summary: Create a new user                 <-- 3.  Short, human-readable description of what this endpoint does
- *     tags:                                      <-- 4.  Optional: Groups endpoints in Swagger UI
- *       - Users                                  <--     Group name
- *     requestBody:                               <-- 5.  Body data sent by the client (for POST/PUT)
- *       required: true                           <--     Indicates body is required
- *       content:
- *         application/json:                      <--     Content type expected
- *           schema:                              <--     Schema of request body
- *             type: object                       <--     Request body is an object
- *             properties:                        <--     List of properties in the request body
- *               username:                        <--     Field name
- *                 type: string                   <--     Data type
- *               passhash:                        <--     Field name
- *                 type: string                   <--     Data type
- *             example:                           <--     Example values to show expected format
- *               username: patrilor               <--     Example: username field
- *               passhash: 696969                 <--     Example: passhash field
- *     responses:                                 <-- 6.  Possible responses from the server
- *       201:                                     <--     HTTP status code for successful creation
- *         description: User created successfully <--     Human-readable explanation
- *         content:
- *           application/json:
- *             schema:
- *               type: object                     <--     Response body is an object
- *               properties:
- *                 id:                            <--     Response property
- *                   type: integer                <--     Data type
- *                 username:                      <--     Response property
- *                   type: string                 <--     Data type
- *       400:                                     <--     HTTP status code for client error
- *         description: Bad Request               <--     Explanation of 400 error
- */
- ```
+A full‑stack movie discovery platform built with React, Node.js/Express, PostgreSQL, and Docker.
+The app integrates with The Movie Database (TMDb) API to deliver real‑time movie data and offers social features like groups, reviews, and favorites.
 
 
-## Instructions for Swagger UI
+📖 Overview
+This application allows users to:
 
-Swagger can also be used for testing and executing HTTP requests manually.
-Run the server with node index.js in the terminal. Swagger UI will be available at http://localhost:3001/api-docs
-The UI includes all the documented HTTP requests.
-Clicking a request displays all its documentation, including parameters and expected responses
-"Try it out"-button allows the user to run the request manually.
-Fill in any required parameters in the request body or query, then click Execute.
-Swagger returns the response body, headers, and status code.
+- search movies and series using multiple criteria
+
+- browse what’s currently in Finnish cinemas
+
+- create and manage groups
+
+- write and read reviews
+
+- maintain personal favorites
+
+- share lists publicly
+
+The UI is fully responsive and adapts smoothly across devices.
+<br>
+<br>
+🚀 Features
+<br>
+🔍 Movie & Series Search
+Search by title, genre, year
+
+- View detailed movie information
+
+- “Now in Theaters (Finland)” section
+
+- Search available without login
+
+👤 User Accounts
+- Registration with password validation
+
+- Login & logout
+
+- Account deletion (removes all user‑generated data)
+
+👥 Groups
+- Create groups with custom names
+
+- Public group listing
+
+- Join requests (approve/reject)
+
+- Remove members or leave groups
+
+- Add movies to group pages
+
+⭐ Reviews & Favorites
+- Post reviews with text + star rating
+
+- Browse reviews without login
+
+- Personal favorites list
+
+- Public sharing via URL
+
+✨ Optional Enhancements
+- Shop integration
+
+- Custom lists
+
+- Dynamic background changes based on genre
+
+🧪 Testing
+The backend includes automated unit tests using Jest.
+
+Test Coverage Includes:
+- User registration
+
+- Login & logout
+
+- Account deletion
+
+- Browsing reviews
+
+- Positive & negative test cases
+
+🐳 Docker Support
+The project includes Docker configuration for containerized development and deployment.
+
+Run with Docker Compose:
+docker-compose up --build
+
+This starts:
+
+- backend (Node.js/Express)
+
+- database (PostgreSQL)
+
+- frontend (React)
+
+All services run in isolated containers for consistent environments.
+
+▶️ Running Locally (without Docker)
+Backend:
+cd moovie/server
+npm install
+npm start
+
+Frontend:
+cd moovie/client
+npm install
+npm start
+
+🧰 Tech Stack
+- Frontend: React
+
+- Backend: Node.js, Express
+
+- Database: PostgreSQL
+
+- API: TMDb
+
+- DevOps: Docker, Railway
+
+- Testing: Jest
+
+📚 Documentation
+The repository includes additional documentation:
+
+- Database class diagram
+
+- UI design
+
+- REST API documentation
+
+- Backlog management
+
+- Version control practices
+
+- Project management notes
+
+🌐 Demo
+The project was previously deployed on a temporary hosting service.
+The trial period has ended, so the live demo is no longer available.
+
+Screenshots and a short demo GIF will be added soon.
+
+👥 Team
+Developed collaboratively by:
+
+Pilar Murcia Pozuelo
+
+Yvonne Frankort
+
+Petteri Pätsi
+
+Markku Putaala
+
+💡 What I Learned
+This project strengthened my skills in:
+
+- full‑stack development
+
+- API integration
+
+- database design
+
+- authentication & authorization
+
+- writing automated tests
+
+- Docker & containerized workflows
+
+- collaborative Git practices
+
+- project planning and documentationSwagger returns the response body, headers, and status code.
