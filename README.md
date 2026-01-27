@@ -1,4 +1,4 @@
-# 🎬 Movie Web App
+# 🎬 Movie App
 A full‑stack movie discovery platform built with **React**, **Node.js/Express**, **PostgreSQL**, and **Docker**.  
 The app integrates with **The Movie Database (TMDb)** API to deliver real‑time movie data and offers social features like groups, reviews, and favorites.
 
