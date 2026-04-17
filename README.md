@@ -1,20 +1,37 @@
 # 🎬 Movie App
-A full‑stack movie discovery platform built with **React**, **Node.js/Express**, **PostgreSQL**, and **Docker**.  
-The app integrates with **The Movie Database (TMDb)** API to deliver real‑time movie data and offers social features like groups, reviews, and favorites.
+A full-stack movie discovery platform built as a 4-person team project using React, Node.js/Express, PostgreSQL, and The Movie Database (TMDb) API.<br>
+
+The application allows users to search movies and series, explore detailed information, read and write reviews, and manage personal favorites.
 
 ---
 
 ## 📖 Overview
 This application allows users to:
 
-- **search movies and series** using multiple criteria  
-- **browse what’s in Finnish cinemas**  
-- **create and manage groups**  
-- **write and read reviews**  
-- **maintain personal favorites**  
-- **share lists publicly**  
+- search movies and series using multiple criteria with basic and advanced filters  
+- view detailed movie information  
+- browse movies currently in Finnish cinemas  
+- create and manage groups  
+- write and read reviews with ratings  
+- maintain personal favorites  
+- earn points and credits through activity (reviews and ratings)  
+- purchase items in an in-app shop using earned credits  
+- manage a user profile with profile picture, display name, and purchased items  
+- share lists publicly
 
 The UI is fully responsive and adapts smoothly across devices.
+
+---
+
+## 👥 My Contribution
+
+I was responsible for frontend development and API-driven user features in the application.
+
+- Implemented movie search functionality (basic and advanced filtering) using TMDb API data
+- Built movie detail views and reusable UI components
+- Developed the “Now in Cinemas” feature for displaying current releases
+- Created the review system with star ratings and comments
+- Implemented the personal favorites feature, including partial backend integration for data persistence
 
 ---
 
@@ -24,12 +41,7 @@ The UI is fully responsive and adapts smoothly across devices.
 - Search by title, genre, year  
 - Movie details with metadata  
 - Now in Theaters (Finland)  
-- Search available without login  
-
-### 👤 User Accounts
-- Registration with password validation  
-- Login & logout  
-- Account deletion (removes all user data)  
+- TMDb API integration for real-time data    
 
 ### 👥 Groups
 - Create groups with custom names  
@@ -38,16 +50,23 @@ The UI is fully responsive and adapts smoothly across devices.
 - Remove members or leave groups  
 - Add movies to group pages  
 
-### ⭐ Reviews & Favorites
-- Post reviews with text + star rating  
-- Browse reviews without login  
-- Personal favorites list  
+### ⭐ User Interaction
+- Reviews with star ratings and comments
+- Favorites system for saved movies 
 - Public sharing via URL  
 
-### ✨ Optional Enhancements
-- Shop integration  
-- Custom lists  
-- Dynamic background changes based on genre  
+### 🔐 Authentication & Permissions
+
+The application implements role-based access control and feature restrictions based on user authentication state.
+
+- Guests can browse basic movie search, in cinemas listings, and view movie details
+- Logged-in users can access advanced search features, write reviews, and rate movies
+- Reviews and ratings are publicly visible but can only be created by authenticated users
+- Groups are restricted to logged-in users only
+- Group management includes role-based permissions:
+  - Only group creators can dissolve groups
+  - Only admins can approve or remove members
+- Favorites and watchlists are private per user but can be shared within groups
 
 ---
 
@@ -55,8 +74,6 @@ The UI is fully responsive and adapts smoothly across devices.
 
 ### Home Page
 <img width="764" height="763" alt="homepage2" src="https://github.com/user-attachments/assets/6bc3a6cd-9bf6-4bd3-b216-45b235bee51d" />
-
-<img width="764" height="763" alt="homepage2" src="https://github.com/user-attachments/assets/4a8ae51a-fae8-4e5d-afb7-5f63ad3c70d3" />
 
 
 ### Search
@@ -92,15 +109,24 @@ https://github.com/user-attachments/assets/0af321c3-3f70-4c11-b658-fb10eeed9b1e
 
 ---
 
+## 🧰 Tech Stack
+- **React**  
+- **Node.js / Express**  
+- **PostgreSQL**  
+- **TMDb API**  
+- **Docker**  
+- **Railway**  
+- **Jest**
+  
+---
+
 ## 🧪 Testing
 The backend includes automated unit tests using **Jest**.
 
 ### Test Coverage Includes:
-- User registration  
-- Login & logout  
-- Account deletion  
-- Browsing reviews  
-- Positive & negative test cases  
+- Authentication flows  
+- Review functionality  
+- Core API endpoints  
 
 ---
 
@@ -138,17 +164,6 @@ npm start
 
 ---
 
-## 🧰 Tech Stack
-- **React**  
-- **Node.js / Express**  
-- **PostgreSQL**  
-- **TMDb API**  
-- **Docker**  
-- **Railway**  
-- **Jest**  
-
----
-
 ## 📚 Documentation
 The repository includes additional documentation:
 
@@ -180,13 +195,12 @@ Developed collaboratively by:
 ---
 
 ## 💡 What I Learned
-This project strengthened my skills in:
 
-- full‑stack development  
-- API integration  
-- database design  
-- authentication & authorization  
-- writing automated tests  
-- Docker workflows  
-- collaborative Git practices  
-- project planning and documentation  
+This project strengthened my experience in building a full-stack application in a team environment.
+
+- Developing frontend features in React with API-driven data flow
+- Working with external APIs (TMDb) and handling asynchronous data
+- Designing and implementing user interaction features such as search, filtering, and reviews
+- Collaborating in a team using Git workflows and shared code structure
+- Understanding backend integration points such as authentication and data persistence
+- Working with Docker-based development environments and testing practices (Jest)
