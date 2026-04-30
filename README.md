@@ -77,7 +77,7 @@ The application implements role-based access control and feature restrictions ba
 |-----------|--------|
 | <img width="350" alt="homepage2" src="https://github.com/user-attachments/assets/6bc3a6cd-9bf6-4bd3-b216-45b235bee51d" /> | <img width="350" alt="advanced_search2" src="https://github.com/user-attachments/assets/a3e9bae2-450c-4e17-b28b-2af0a746f021" /> |
 
-###Groups & Profile
+### Groups & Profile
 | Groups | Profile |
 |-----------|--------|
 | <img width="350" alt="groups" src="https://github.com/user-attachments/assets/caae99d3-be64-48dd-a71d-675534dac46b" /> | <img width="350" alt="profile" src="https://github.com/user-attachments/assets/9b85c50a-4c5f-45c5-96f5-4750d616fd3d" /> |
