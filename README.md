@@ -70,11 +70,9 @@ The application implements role-based access control and feature restrictions ba
 
 ---
 
-## 🎞 Demo GIF
+## 🎞 Demo Video
 
-https://github.com/user-attachments/assets/0af321c3-3f70-4c11-b658-fb10eeed9b1e
-
-![Demo](screenshots/demo.gif)
+https://github.com/user-attachments/assets/8c43c67f-4b22-4177-931a-394f7a2fd8f3
 
 ---
 
