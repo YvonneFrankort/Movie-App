@@ -70,6 +70,14 @@ The application implements role-based access control and feature restrictions ba
 
 ---
 
+## 🎞 Demo GIF
+
+https://github.com/user-attachments/assets/0af321c3-3f70-4c11-b658-fb10eeed9b1e
+
+![Demo](screenshots/demo.gif)
+
+---
+
 ## 📸 Screenshots
 
 ### Home Page & Movie Search
@@ -91,14 +99,6 @@ The application implements role-based access control and feature restrictions ba
 | Movie Details | Reviews |
 |-----------|--------|
 | <img width="350" alt="details" src="https://github.com/user-attachments/assets/454be5fd-9159-4bfc-8bbe-4668045a2376" /> | <img width="350" alt="reviews" src="https://github.com/user-attachments/assets/e07d0cb7-6379-4684-ad94-701930777837" />|
-
----
-
-## 🎞 Demo GIF
-
-https://github.com/user-attachments/assets/0af321c3-3f70-4c11-b658-fb10eeed9b1e
-
-![Demo](screenshots/demo.gif)
 
 ---
 
