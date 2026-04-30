@@ -72,18 +72,22 @@ The application implements role-based access control and feature restrictions ba
 
 ## 📸 Screenshots
 
+### Home Page & Movie Search
 | Home Page | Movie Search |
 |-----------|--------|
 | <img width="350" alt="homepage2" src="https://github.com/user-attachments/assets/6bc3a6cd-9bf6-4bd3-b216-45b235bee51d" /> | <img width="350" alt="advanced_search2" src="https://github.com/user-attachments/assets/a3e9bae2-450c-4e17-b28b-2af0a746f021" /> |
 
+###Groups & Profile
 | Groups | Profile |
 |-----------|--------|
 | <img width="350" alt="groups" src="https://github.com/user-attachments/assets/caae99d3-be64-48dd-a71d-675534dac46b" /> | <img width="350" alt="profile" src="https://github.com/user-attachments/assets/9b85c50a-4c5f-45c5-96f5-4750d616fd3d" /> |
 
+### In Cinemas & Shop
 | In Cinemas | Shop |
 |-----------|--------|
 | <img width="350" alt="in_cinemas" src="https://github.com/user-attachments/assets/11117120-8330-48e8-b6ca-dfb82fa6d302" /> | <img width="350" alt="shop" src="https://github.com/user-attachments/assets/367ed157-2cce-4502-bc27-c45072c85a8e" /> |
 
+### Movie Details & Reviews
 | Movie Details | Reviews |
 |-----------|--------|
 | <img width="350" alt="details" src="https://github.com/user-attachments/assets/454be5fd-9159-4bfc-8bbe-4668045a2376" /> | <img width="350" alt="reviews" src="https://github.com/user-attachments/assets/e07d0cb7-6379-4684-ad94-701930777837" />|
